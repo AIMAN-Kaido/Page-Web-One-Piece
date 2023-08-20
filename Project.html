@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Page Web</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-image: url(html/1325915.png);
+    background-size:cover;
+    height:100%;
+}
+header{
+    background-color:white;
+    border:1px black solid;
+}
+p{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+}
+.center{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.Categories{
+    display: flex;
+    align-items: center;
+}
+.Categories ul{ 
+    display: flex;
+align-items: center;
+margin-left: 90px;
+}
+input{
+    padding: 5px;
+    margin: 2px;
+}
+input[type="button"]{
+    font-family:monospace ;
+    font-weight:bold;
+    color: white;
+    background-color: rgb(204, 204, 230);
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: red;
+}
+ul{
+    list-style: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.box{
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    height: 100%;
+}
+#para{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-family: monospace;
+    font-size: 35px;
+    color:black;
+    font-weight: bold;
+    font-weight: bold;
+}
+label{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px;
+    color:black;
+}
+#Categories{
+    padding:5px;
+    width:150px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="center">
+        <div class="logo">
+            <img src="html/onppp.webp" alt="Error">
+            <p>ONE PIECE</p>
+        </div>
+    <form>
+        <div class="Categories">
+        <input type="text" placeholder="Search">
+        <input type="button" value="Go !">
+        <input type="button" value="Create an account">
+        <input type="button" value="Login !">
+        <ul>
+            <li><a href="#">Animation Episodes</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Bounties</a></li>
+        </ul>
+    </div>
+    </form>
+</div>
+    </header>
+    <main>
+        <p id="para">Watch the Episodes now !</p>
+        <div class="box">
+             <label for="select">Chose the episode</label>
+             <select id="Categories" name="select">
+             <option value="1">episode 1070</option>
+             <option value="2">episode 1071</option>
+             <option value="3">episode 1072</option>
+             <option value="4">episode 1073</option>
+</select>
+</div>
+    </main>
+</body>
+</html>
